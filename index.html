@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Real-time Speech to Text</title>
+    <style>
+      #output {
+        font-size: 1.5em;
+        padding: 10px;
+        margin-top: 20px;
+        border: 2px solid #333;
+        width: 100%;
+        max-width: 600px;
+        height: 100px;
+      }
+      button {
+        padding: 10px 20px;
+        font-size: 1em;
+        margin: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Speak and See Your Words in Real-Time</h1>
+    <button id="start">Start Listening</button>
+    <button id="stop" style="display: none">Stop Listening</button>
+    <div id="output">Your speech will appear here...</div>
+
+    <script src="app.js"></script>
+    <!-- Load the JavaScript file -->
+  </body>
+</html>
